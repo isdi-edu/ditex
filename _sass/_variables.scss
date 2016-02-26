@@ -1,0 +1,56 @@
+/*
+------------------------------------------------
+PALETA DE COLORES
+------------------------------------------------
+*/
+
+$white: 					 #fff;
+$black: 					 #000;
+
+$dark-background-color2: #c6c6c6;
+$dark-background-color: 	 #393a39;	// gris
+$darken-background-color: 	 #333333;	// casi negro
+$light-background-color: 	 #ebebeb;	// gris claro
+$lighten-background-color: 	 #fbfbfb;	// gris muy claro
+$highlight-background-color: #d20a17; 	// rojo
+
+$dark-text-color: 			 #9a947e;	// gris
+$darken-text-color: 		 #666666;	// gris oscuro
+$highlight-text-color: 		 #e51d2a;	// rojo
+$brand-primary: 			 #47c502;	// verde
+
+/*
+------------------------------------------------
+FUENTES
+------------------------------------------------
+*/
+$font-size-title-large-xs: 	50px;
+$font-size-title-xs: 		29px;
+$font-size-xlarge-xs: 	26px;
+$font-size-large-xs: 		21px;
+$font-size-base-xs: 		16px;
+$font-size-small-xs: 		14px;
+
+$font-size-title-large-sm: 	47px;
+$font-size-title-sm: 		33px;
+$font-size-xlarge-sm: 	34px;
+$font-size-large-sm: 		21px;
+$font-size-base-sm: 		16px;
+$font-size-small-sm: 		14px;
+
+$font-family-base: 'Open Sans', sans-serif;
+$font-family-auxiliar: Arial, sans-serif;
+
+/*
+------------------------------------------------
+OTRAS
+------------------------------------------------
+*/
+
+// Separación de bloques y secciones
+$separator-padding-base-xs: 40px;
+$separator-padding-base-sm: 50px;
+
+$modal-content-bg: $light-background-color;
+
+$screen-lg: 9999999px;

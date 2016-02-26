@@ -1,0 +1,27 @@
+
+@mixin uppercase() {
+	text-transform: uppercase;
+}
+
+.uppercase { @include uppercase; }
+
+@mixin line-height-small() {
+	line-height: 1.3em;
+}
+
+@mixin rojo() {
+	color: $highlight-text-color;
+}
+
+.rojo { @include rojo; }
+
+@mixin margen {
+	margin-bottom: 10px;
+}
+
+.margen { @include margen; }
+
+@mixin margen-mediano() {
+	margin-bottom: 25px;
+}
+.margen-mediano { @include margen-mediano; }

@@ -1,0 +1,62 @@
+/*
+------------------------------------------------
+FONTS
+------------------------------------------------
+*/
+
+@mixin font-family-titles() {
+    font-family: $font-family-base;
+}
+
+@mixin font-size-title-large() {
+    font-size: $font-size-title-large-xs;
+    line-height: 1em;
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-title-large-sm;
+    }
+}
+@mixin font-size-title() {
+    line-height: 1.2em;
+    font-size: $font-size-title-xs;
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-title-sm;
+    }
+}
+@mixin font-size-xlarge {
+    font-size: $font-size-xlarge-xs;
+    line-height: 1.2em;
+
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-xlarge-sm;
+    }
+}
+.font-size-xlarge { @include font-size-xlarge; }
+
+@mixin font-size-large {
+    font-size: $font-size-large-xs;
+    line-height: 1.2em;
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-large-sm;
+    }
+}
+.font-size-large { @include font-size-large }
+
+@mixin font-size-base() {
+	font-size: $font-size-base-xs;
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-base-sm;
+    }
+}
+@mixin font-size-small {
+    font-size: $font-size-small-xs;
+    @media(min-width: $screen-sm) {
+    	font-size: $font-size-small-sm;
+    }
+}
+.font-size-small { @include font-size-small; }
+
+h2 {
+    @media(min-width: $screen-sm-min) {
+        font-size: 35px;
+    }
+}
