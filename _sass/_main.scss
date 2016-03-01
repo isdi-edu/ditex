@@ -408,9 +408,25 @@ $background-color: $black;
 
 // ----------------------------------------------
 
+.fineprint {
+	text-transform: none;
+	font-size: $font-size-small;
+}
 
 .seccion.-gris {
 	background-color: #e2e2e2;
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&, &:hover, &:active, &:focus {
+			color: $darken-text-color;
+		}
+	}
 }
 
 seccion.-clara {
@@ -630,15 +646,6 @@ seccion.-clara {
 	padding-left: 15px;
 	background: url('../images/ico-geolocalizacion.svg') no-repeat left center;
 	background-size: 0.75em;
-	text-decoration: underline;
-
-	&:hover {
-		text-decoration: none;
-	}
-
-	&, &:hover, &:active, &:focus {
-		color: $darken-text-color;
-	}
 }
 
 
